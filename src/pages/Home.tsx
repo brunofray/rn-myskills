@@ -95,7 +95,7 @@ const styles = StyleSheet.create({
     flex: 1, 
     backgroundColor: '#121015',
     paddingHorizontal: 30,
-    paddingVertical: 70,
+    paddingVertical: Platform.OS === 'ios' ? 70 : 40,
   },
   title: {
     color: '#fff',
